@@ -1,0 +1,16 @@
+#hero-section {
+    background-image: url('../img/background/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#hero-section h1 {
+    font-family: 'Lobster', cursive;
+}
+
+#hero-section .btn-primary {
+    background-color: #be8c60;
+    border-color: #be8c60;
+}

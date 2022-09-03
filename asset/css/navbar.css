@@ -1,0 +1,14 @@
+#navbar li a {
+    color: #3c2f33;
+    font-weight: bold;
+}
+
+#navbar .nav-link {
+    padding: 5px 10px;
+}
+
+#navbar .nav-link.active {
+    background-color: #6d534c;
+    color: #ffffff;
+    border-radius: .3em;
+}
