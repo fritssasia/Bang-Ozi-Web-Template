@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kedai Kopi dan Shisha Bang Ozi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@400;700&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet" href="asset/css/navbar.css">
+
+<link rel="stylesheet" href="asset/css/hero-section.css">
+
+<link rel="stylesheet" href="asset/css/homepage-menu.css">
+
+<link rel="stylesheet" href="asset/css/facility.css">
+
+<link rel="stylesheet" href="asset/css/top-footer.css">
+
+<link rel="stylesheet" href="asset/css/footer.css">
+
+<link rel="stylesheet" href="asset/css/style.css">
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg bg-white" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler text-center mx-auto shadow-none border-0" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto text-center gap-md-4">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#homepage-menu">Daftar Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lokasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION : START -->
+    <section id="hero-section" class="d-flex align-items-center" style="height: 100vh;">
+        <div class="container text-center">
+            <img src="asset/img/logo/bangozi.jpg" alt="" class="mb-3"
+                style="height: 100px; object-fit: cover; border-radius: 100%;">
+            <h1>Kedai Kopi & Shisha<br>Bang Ozi</h1>
+            <p class="desc">All You Need Is Love And More Coffee</p>
+
+            <div class="pt-2">
+                <a href="" class="btn btn-primary py-2 px-4">Daftar menu</a>
+                <a href="" class="btn text-white border-0">Petunjuk Arah</a>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1662105841">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- HERO SECTION : END -->
+
+    <section id="homepage-menu" class="py-5">
+        <div class="container">
+
+            <div class="list-category">
+                <h1 class="mb-4">Daftar Menu</h1>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <div class="row row-cols-2 row-cols-lg-5 g-3">
+
+                        <!-- BEST SELLER -->
+                        <div class="col">
+                            <a class="list-group-item list-group-item-action active" id="best-seller" data-bs-toggle="list" href="#list-best-seller"
+                                role="tab" aria-controls="list-best-seller">Best Seller</a>
+                        </div>
+                        
+                        <!-- MINUMAN PANAS -->
+                        <div class="col">
+                            <a class="list-group-item list-group-item-action" id="minuman-panas" data-bs-toggle="list" href="#list-minuman-panas"
+                                role="tab" aria-controls="list-minuman-panas">Minuman Panas</a>
+                        </div>
+
+                        <!-- MINUMAN DINGIN -->
+                        <div class="col">
+                            <a class="list-group-item list-group-item-action" id="minuman-dingin" data-bs-toggle="list" href="#list-minuman-dingin"
+                                role="tab" aria-controls="list-minuman-dingin">Minuman Dingin</a>
+                        </div>
+
+                        <!-- CEMILAN -->
+                        <div class="col">
+                            <a class="list-group-item list-group-item-action" id="cemilan" data-bs-toggle="list" href="#list-cemilan"
+                                role="tab" aria-controls="list-cemilan">Cemilan</a>
+                        </div>
+                        
+                        <!-- MAKANAN -->
+                        <div class="col">
+                            <a class="list-group-item list-group-item-action" id="makanan" data-bs-toggle="list" href="#list-makanan"
+                                role="tab" aria-controls="list-makanan">Makanan</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content" id="nav-tabContent">
+
+                <!-- BEST SELLER : START -->
+                <div class="tab-pane fade show active" id="list-best-seller" role="tabpanel" aria-labelledby="best-seller">
+                    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 gy-5 pt-5">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-footer py-3">
+                                    <p class="product-name">Kopi susu</p>
+                                    <p class="product-price">Rp. 10.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-footer py-3">
+                                    <p class="product-name mb-0">Kopi susu</p>
+                                    <p class="product-price">10K</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-footer py-3">
+                                    <p class="product-name mb-0">Kopi susu</p>
+                                    <p class="product-price">10K</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body p-0">
+                                    <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-footer py-3">
+                                    <p class="product-name mb-0">Kopi susu</p>
+                                    <p class="product-price">10K</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- BEST SELLER : END -->
+
+                <!-- MINUMAN PANAS : START -->
+                <div class="tab-pane fade" id="list-minuman-panas" role="tabpanel" aria-labelledby="minuman-panas">
+                    2
+                </div>
+                <!-- MINUMAN PANAS : END -->
+
+                <!-- MINUMAN DINGIN : START -->
+                <div class="tab-pane fade" id="list-minuman-dingin" role="tabpanel" aria-labelledby="minuman-dingin">
+                    3
+                </div>
+                <!-- MINUMAN DINGIN : END -->
+
+                <!-- CEMILAN : START -->
+                <div class="tab-pane fade" id="list-cemilan" role="tabpanel" aria-labelledby="cemilan">
+                    4
+                </div>
+                <!-- CEMILAN : END -->
+
+                <!-- MAKANAN : START -->
+                <div class="tab-pane fade" id="list-makanan" role="tabpanel" aria-labelledby="makanan">
+                    5
+                </div>
+                <!-- MAKANAN : END -->
+            </div>
+
+        </div>
+    </section>
+
+    <section id="facility" class="py-5">
+        <div class="container">
+            <h1 class="">Fasilitas</h1>
+            <div class="row row-cols-4 pt-4">
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-wifi"></i>
+                            <p class="mb-0">Gratis WiFi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-bolt"></i>
+                            <p class="mb-0">Tempat Charger</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-mosque"></i>
+                            <p class="mb-0">Tempat Sholat</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <i class="fa-solid fa-restroom"></i>
+                            <p class="mb-0">Toilet</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="top-footer" style="height: 200px;">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <footer id="footer" class="py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0">Built With Love by Rivas Frits Sasia</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+
+    <script src="https://kit.fontawesome.com/38b3e84371.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
