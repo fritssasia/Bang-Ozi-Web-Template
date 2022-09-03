@@ -15,3 +15,23 @@
     background-color: #be8c60;
     border-color: #be8c60;
 }
+
+#hero-section .custom-shape-divider-bottom-1662105841 {
+    position: absolute;
+    bottom: 0 !important;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#hero-section .custom-shape-divider-bottom-1662105841 svg {
+    position: relative;
+    display: block;
+    width: calc(277% + 1.3px);
+    height: 115px;
+}
+
+#hero-section .custom-shape-divider-bottom-1662105841 .shape-fill {
+    fill: #5A423B;
+}
