@@ -141,9 +141,51 @@
                 <!-- BEST SELLER : START -->
                 <div class="tab-pane fade show active" id="list-best-seller" role="tabpanel"
                     aria-labelledby="best-seller">
-                    <div class="splide pt-5" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide pt-5" id="splide-list-best-seller" role="group">
+                        <div class="splide__arrows">
+                            <button class="splide__arrow splide__arrow--prev">
+                                <i class="fa-solid fa-circle-chevron-left"></i>
+                            </button>
+                            <button class="splide__arrow splide__arrow--next">
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </button>
+                        </div>
+
                         <div class="splide__track">
                             <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="card">
+                                        <div class="card-body p-0">
+                                            <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-footer py-3">
+                                            <p class="product-name">Kopi susu</p>
+                                            <p class="product-price">Rp. 10.000</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card">
+                                        <div class="card-body p-0">
+                                            <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-footer py-3">
+                                            <p class="product-name">Kopi susu</p>
+                                            <p class="product-price">Rp. 10.000</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="card">
+                                        <div class="card-body p-0">
+                                            <img src="asset/img/product/coffee.jpeg" class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="card-footer py-3">
+                                            <p class="product-name">Kopi susu</p>
+                                            <p class="product-price">Rp. 10.000</p>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li class="splide__slide">
                                     <div class="card">
                                         <div class="card-body p-0">
@@ -251,6 +293,12 @@
     </section>
     <!-- FASILITAS : END -->
 
+    <section id="gallery">
+        <div class="container">
+            
+        </div>
+    </section>
+
     <section id="top-footer" style="height: 200px;">
         <div class="container">
 
@@ -274,22 +322,20 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.13/dist/js/splide.min.js"></script>
 
     <script>
-        var splide = new Splide('.splide', {
+        new Splide('#splide-list-best-seller', {
             type: 'loop',
             perPage: 4,
-            perMove: 1,
             gap: 20,
             breakpoints: {
                 576: {
                     perPage: 1,
                 },
-                992: {
+                1024: {
                     perPage: 3,
+                    gap: 30,
                 },
             }
-        });
-
-        splide.mount();
+        }).mount();
     </script>
 
 </body>
