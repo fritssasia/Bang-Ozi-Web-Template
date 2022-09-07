@@ -1,0 +1,29 @@
+#contact {
+    background-color: #382925;
+    color: #ffffff;
+}
+
+#contact h1 {
+    font-family: 'Lobster', cursive;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    filter: brightness(80%);
+}
+
+#contact .btn-primary {
+    background-color: #be8c60;
+    border-color: #be8c60;
+}
