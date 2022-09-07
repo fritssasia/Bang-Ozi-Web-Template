@@ -1,4 +1,6 @@
-body {
+
+html body {
     font-family: 'Merriweather', serif;
     background-color: #5a423b;
+    overflow-x: hidden !important;
 }
