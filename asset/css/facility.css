@@ -19,13 +19,21 @@
     padding: 25px;
 }
 
+#facility {
+    background-color: #382925;
+    color: #ffffff;
+}
+
 #facility .icon i {
     color: #ffffff;
     font-size: 20px;
 }
 
-#facility p {
-    color: #ffffff;
+#facility .desc {
+    text-align: center;
+}
+
+#facility .facility {
     margin-top: 25px;
     font-weight: bold;
 }

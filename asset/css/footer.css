@@ -3,5 +3,10 @@
 }
 
 #footer p {
-    color: #e7e5de;
+    color: #ffffff;
+}
+
+#footer a, span {
+    color: #be8c60;
+    text-decoration: none;
 }
